@@ -1,0 +1,60 @@
+body {
+    background: url('image/background.jpg');
+    background-size: cover;
+    font-size: 16px;
+    background-position-y: center;
+}
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+#form-register {
+    max-width: 700px;
+    background-color: #000303;
+    flex-grow: 1;
+}
+
+.register-tittle {
+    padding-top: 50px;
+    color: #AEFEFF;
+    text-align: center;
+}
+
+.register-input {
+    color: #AEFEFF;
+    padding-left: 1 0px;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.input-txt {
+    background-color: #000303;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid;
+    border-color: #AEFEFF;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.register-gr {
+    padding: 30px 0px 50px 250px;
+}
+
+.register-submit {
+    background: transparent;
+    border: 1px solid #AEFEFF;
+    color: #AEFEFF;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.25s ease-in-out;
+
+}

@@ -1,9 +1,8 @@
 body {
-    background: url('background.jpg');
+    background: url('image/background.jpg');
     background-size: cover;
     font-size: 16px;
     background-position-y: center;
-
 }
 
 #wrapper {
@@ -11,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.8;
 }
 
 #form-login {
@@ -22,7 +22,7 @@ body {
 }
 
 .form-heading {
-    font-size: 25px;
+    font-size: 40px;
     color: #AEFEFF;
     text-align: center;
     margin-bottom: 30px;
@@ -46,11 +46,12 @@ body {
     border: 0;
     outline: 0;
     color: #AEFEFF;
+    opacity: 0.3;
     flex-grow: 1;
 }
 
 .form-input::placeholder {
-    color: #AEFEFF;
+    color: white;
 }
 
 .form-submit {
@@ -62,4 +63,8 @@ body {
     padding: 6px 10px;
     transition: 0.25s ease-in-out;
     margin-top: 30px;
+}
+
+::placeholder {
+    font-style: italic;
 }
