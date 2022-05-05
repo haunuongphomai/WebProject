@@ -1,8 +1,12 @@
 body {
-    background: url('image/background.jpg');
+    background: url('image/login-backgr.jpg');
     background-size: cover;
     font-size: 16px;
     background-position-y: center;
+}
+
+html {
+    height: 100%;
 }
 
 #wrapper {
@@ -11,9 +15,11 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 0.8;
+    margin-top: 100px;
 }
 
 #form-login {
+    margin-top: 100px;
     max-width: 600px;
     background: #000303;
     flex-grow: 1;
@@ -29,7 +35,7 @@ body {
 }
 
 .form-group {
-    border-bottom: 1px solid #AEFEFF;
+    /* border-bottom: 1px solid #AEFEFF; */
     margin-top: 15px;
     margin-bottom: 20px;
     display: flex;
@@ -43,11 +49,14 @@ body {
 
 .form-input {
     background: transparent;
-    border: 0;
+    border: 2px solid;
     outline: 0;
     color: #AEFEFF;
     opacity: 0.3;
     flex-grow: 1;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 .form-input::placeholder {
@@ -63,8 +72,16 @@ body {
     padding: 6px 10px;
     transition: 0.25s ease-in-out;
     margin-top: 30px;
+    width: 70%;
+    margin-left: 90px;
+    font-size: 17px;
 }
 
 ::placeholder {
     font-style: italic;
+}
+
+.register-button {
+    text-decoration: none;
+    color: #fff;
 }

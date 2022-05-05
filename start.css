@@ -1,0 +1,81 @@
+body {
+    background: url('image/background.jpg');
+    background-size: cover;
+    background-position-y: center;
+}
+
+.Button {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    display: inline-block;
+    font: inherit;
+    height: auto;
+    line-height: 1;
+    margin-bottom: 230px;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.Button-inner {
+    align-items: center;
+    background: #fff;
+    border: 2px solid transparent;
+    border-radius: 99em;
+    color: #3c0384;
+    display: flex;
+    font-weight: 600;
+    height: 2.5em;
+    min-width: 2.5em;
+    padding: 0 1em;
+    position: relative;
+    transition: 0.2s ease;
+    width: 100%;
+}
+
+.Button:focus .Button-inner {
+    border-color: #fff;
+    box-shadow: 0 0 0 2px #456BD9;
+}
+
+.Button:hover .Button-inner {
+    filter: brightness(1.1);
+    background-color: #3c0384;
+    color: #fff;
+}
+
+.Button .Button-inner>a {
+    text-decoration: none;
+}
+
+.Button:active .Button-inner {
+    filter: brightness(0.9);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background: #DBE5EA;
+    height: 100%;
+}
+
+body {
+    align-items: flex-end;
+    display: flex;
+    font: 1.125em/1.5625 Source Sans Pro, Tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    min-height: 100%;
+    font-size: 30px;
+}

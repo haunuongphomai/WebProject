@@ -17,6 +17,7 @@ body {
     max-width: 700px;
     background-color: #000303;
     flex-grow: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .register-tittle {
@@ -58,3 +59,24 @@ body {
     transition: 0.25s ease-in-out;
 
 }
+
+.province {
+    padding: 5px;
+    margin-top: 10px;
+    padding-right: 30px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+.district {
+    padding: 5px;
+    margin-top: 10px;
+    padding-right: 30px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+.List {
+    margin: 10px 0px 0px 30px;
+}
+
